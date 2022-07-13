@@ -1,5 +1,4 @@
 library(shiny)
-require(readr)
 
 port <- Sys.getenv('PORT')
 shiny::runApp(
